@@ -8,6 +8,10 @@
 # install dependencies
 npm install
 
+# Set api url:
+      File: vue-comment-form\src\main.js:
+           Change: Vue.prototype.url_server = 'http://localhost:3001/';
+
 # serve with hot reload at localhost:8080
 npm run dev
 
