@@ -3,7 +3,7 @@
     <div class="detailBox">
       <div class="titleBox">
         <h1>
-          Comments Form 
+          <font-awesome-icon icon="comments"/>
         </h1>
       </div>
       <div> 
