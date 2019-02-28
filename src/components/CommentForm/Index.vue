@@ -99,7 +99,6 @@ export default {
             self.comments.push(item);
           })
 
-          // self.comments = response.data;
         })
         .catch(errors => {
           this.errors = errors;
@@ -127,10 +126,9 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 
-  @import 'style/style.scss';
+  @import './Style/Style.scss';
 
   html {
     scroll-behavior: smooth;

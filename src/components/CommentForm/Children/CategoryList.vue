@@ -39,7 +39,7 @@ export default {
 
 <style scoped lang="scss">
 
-  @import '../Style/style.scss';
+  @import '../Style/Style.scss';
 
 .list-group {
   display: flex;
