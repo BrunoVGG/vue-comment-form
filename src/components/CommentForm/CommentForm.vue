@@ -34,8 +34,6 @@ import FormInput from './FormInput';
 import CategoryList from './CategoryList';
 import CommentList from './CommentList';
 import ErrorsMessage from './ErrorsMessage';
-// import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-//import {Comment} from './Entities/Comment.ts'
 
 export default {
   name: 'CommentForm',
