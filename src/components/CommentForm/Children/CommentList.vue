@@ -100,7 +100,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-  @import 'style/style.scss';
+  @import '../Style/style.scss';
 
 .comment-list {
   padding:0;

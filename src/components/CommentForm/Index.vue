@@ -30,10 +30,10 @@
 
 <script>
 import Vue from 'vue';
-import FormInput from './FormInput';
-import CategoryList from './CategoryList';
-import CommentList from './CommentList';
-import ErrorsMessage from './ErrorsMessage';
+import FormInput from './Children/FormInput';
+import CategoryList from './Children/CategoryList';
+import CommentList from './Children/CommentList';
+import ErrorsMessage from './Children/ErrorsMessage';
 
 export default {
   name: 'CommentForm',

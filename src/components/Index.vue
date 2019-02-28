@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import CommentForm from './CommentForm/CommentForm';
+import CommentForm from './CommentForm/';
 
 export default {
   name: 'HelloWorld',
