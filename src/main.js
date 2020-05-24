@@ -15,6 +15,7 @@ import { faEdit } from '@fortawesome/free-solid-svg-icons'
 import { faTrash } from '@fortawesome/free-solid-svg-icons'
 import { faComments } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import HighchartsVue from 'highcharts-vue'
 import VueLodash from 'vue-lodash'
 
 Vue.use(require('vue-moment'));
@@ -29,6 +30,7 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.use(BootstrapVue)
 Vue.use(VueAxios, axios);
+Vue.use(HighchartsVue)
 
 Vue.prototype.url_server = 'http://localhost:3001/';
 
